@@ -1,0 +1,64 @@
+{
+    "appsync-table": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "city": {"S":"New York"},
+                    "state": {"S":"New York"},
+                    "zip": {"S":"10118"},
+                    "description": {"M":{"text": {"S": "Empire State Building"}, "status": {"BOOL": true}}}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "city": {"S":"Orlando"},
+                    "state": {"S":"Florida"},
+                    "zip": {"S":"32830"},
+                    "description": {"M":{"text": {"S": "Disney World"}, "status": {"BOOL": true}}}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "city": {"S":"Paradise"},
+                    "state": {"S":"Nevada"},
+                    "zip": {"S":"89109"},
+                    "description": {"M":{"text": {"S": "Las Vegas Strip"}, "status": {"BOOL": true}}}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "city": {"S":"Paradise1"},
+                    "state": {"S":"Nevada"},
+                    "zip": {"S":"89107"},
+                    "description": {"M":{"text": {"S": "Las Vegas Strip 1"}, "status": {"BOOL": false}}}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "city": {"S":"Philadelphia"},
+                    "state": {"S":"Pennsylvania"},
+                    "zip": {"S":"19106"},
+                    "description": {"M":{"text": {"S": "Liberty Bell"}, "status": {"BOOL": true}}}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "city": {"S":"Yellowstone"},
+                    "state": {"S":"Wyoming"},
+                    "zip": {"S":"82190"},
+                    "description": {"M":{"text": {"S": "Yellowstone National Park"}, "status": {"BOOL": true}}}
+                }
+            }
+        }
+    ]
+}
