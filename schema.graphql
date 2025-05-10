@@ -1,0 +1,19 @@
+type Destination {
+	description: Description
+	state: String!
+	city: String!
+	zip: String!
+}
+
+type Description {
+    text: String
+    status: Boolean
+}
+
+type Query {
+	getState(state: String!, zip: String!): [Destination]
+}
+
+schema {
+	query: Query
+}
